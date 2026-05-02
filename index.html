@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./CSS/style.css">
     <title>Portofolio</title>
 </head>
@@ -12,61 +12,118 @@
         <h1 class="logo">Portofolio.</h1>
         <div class="nav">
             <a href="#">acceuil</a>
-            <a href="#">Compétences</a>
-            <a href="#">Contacts</a>
+            <a href="#compétences">Compétences</a>
+            <a href="#projets">Projets</a>
+            <a href="#contacts">Contacts</a>
         </div>
     </header>
     <main>
         <!-- Presentation -->
         <section class="presentation">
             <div class="text">
-            <h1>SALUT! je suis <span class="important">Fatimatou</span> <br>
-                Developpeuse web et mobile
-            </h1>
-            <h3>Passionné par la tech et le numérique je vous mets 
-                à disposition <br> des plateformes numériques originales
-                et modernes.
-            </h3>
-            <button>Télécharger mon CV</button>
-       </div>
-       <div class="photo">
-         <img src="IMG-20251223-WA0056-removebg-preview.png" alt=""> 
-        </div>
+                <h1>SALUT! je suis <span class="important">Fatimatou</span> <br>
+                    Developpeuse web et mobile
+                </h1>
+                <h3>Passionné par la tech et le numérique je vous mets 
+                    à disposition <br> des plateformes numériques originales
+                    et modernes.
+                </h3>
+                <button>Télécharger mon CV</button>
+             </div>
+            <div class="photo">
+                <img src="IMG-20251223-WA0056-removebg-preview.png" alt=""> 
+            </div>
         </section>
          <!--compétences  -->
         <div class="com">Mes compétences</div>
-        <section class="compétences">
-                <div class="card1">
-                   <i class="fa fa-html5" aria-hidden="true"></i>
-                   <h3>HTML</h3> 
-                  <p>structure mes pages web <br> avec un code propre </p> 
-                </div>
+        <section id="compétences" class="compétences">
+            <div class="card1">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3> 
+                <p>structure mes pages web <br> avec un code propre </p> 
+            </div>
 
-                <div  class="card2">
-                    <i class="fa fa-css3" aria-hidden="true"></i>
-                    <h3>CSS</h3>
-                    <p>stylise mes sites avec des designs <br> moderne et responsive</p>
-                </div>
+            <div  class="card2"> 
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>stylise mes sites avec des designs <br> moderne et responsive</p>
+            </div>
 
-                <div class="card3">
-                    <i class="fa fa-github-square" aria-hidden="true"></i>
-                    <h3>github</h3>
-                    <p>je sauvegarde mes projets dans le cloud <br> et interagie avec des professionnels</p>
-                </div>
+            <div class="card3">
+                <i class="fa-brands fa-github"></i>
+                <h3>github</h3>
+                <p>je sauvegarde mes projets dans le cloud <br> et interagie avec des professionnels</p>
+             </div>
 
-                <div class="card4">
-                    <i class="fa fa-git" aria-hidden="true"></i>
-                    <h3>git</h3>
-                    <p> permet de travailler en sécurité </p>
-                </div>
+            <div class="card4">
+                <i class="fa-brands fa-git-alt"></i>
+                <h3>git</h3>
+                <p> permet de travailler en sécurité </p>
+            </div>
         </section>
+        <!-- Projet -->
+         <div class="com">Mes Projets</div>
+         <section id="projets" class="projets">
+           <div class="block">
+              <img src="site.png" alt="">
+              <p>Site simple de présentation <br> de 
+                collaborateurs et compétences
+              </p>
+              <button>Voir le Projet</button> 
+           </div>
+
+           <div class="block">
+              <img src="formulaire.png" alt="">
+              <p>
+                Formulaire simple et dynamique <br>
+                HTML, CSS, Javascript
+              </p>
+              <button>Voir le Projet</button>
+           </div>
+         </section>
+    
         <!-- contact -->
-        <div class="cont">contactez moi</div>
-        <section class="contact">
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <i class="fa fa-map-pin" aria-hidden="true"></i>
-            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <div class="cont">contactez-moi</div>
+        <section id="contact" class="contact">
+            <div class="gauche">
+                <div class="local">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Localisation <br>
+                        Libreville, Gabon
+                    </p>
+                </div>
+
+                <div class="local">
+                    <i class="fa-solid fa-square-phone"></i>
+                    <p>Téléphone <br>
+                        077 84 26 38
+                    </p>
+                </div>
+
+                <div class="local">
+                    <i class="fa-regular fa-envelope"></i>   
+                    <p>Mail <br>
+                        fatoumata@gmail.com
+                    </p>
+                </div>
+            </div>
+            <form>
+                <label>
+                      <h5>Téléphone</h5>
+                      <input type="text"> 
+                </label>
+                 <label>
+                      <h5>Mail</h5>
+                      </i> <input type="text"> 
+                </label>
+                 <label>
+                      <h5>Message</h5>
+                      </i> <textarea name="" id=""></textarea>
+                </label>
+                <button>Envoyez le Message</button>
+            </form>
         </section>
     </main>
 </body>
 </html>
+
