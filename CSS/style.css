@@ -3,6 +3,7 @@
 @import url(main.css);
 @import url(https://fonts.google.com/specimen/Inria+Serif?preview.script=Latn);
 @import url(https://fonts.google.com/specimen/Inter?query=inter);
+@import url(mobile.css);
 :root {
      --primary-color:#FFD1DC ;
     --secondary-color: #FFFFFF ;
