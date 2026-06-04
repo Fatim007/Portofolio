@@ -2,6 +2,8 @@ header {
   display: flex; 
   justify-content: space-between;
   padding: 20px 20px;
+  font-weight: bold;
+
 }
 .nav a {
     text-decoration: none;
@@ -12,7 +14,7 @@ header {
     margin-top: 6px;
 }
 .nav a:hover {
-    color: rgb(151, 13, 59);
+    color: var(--fh-color);
 }
 .logo {
     font-size: 25px;

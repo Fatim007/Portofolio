@@ -6,19 +6,26 @@
     align-items: center;
     height: 400px;
     margin-right: 150px;
+    line-height: 40px;
+    padding: 10px;
+}
+
+.presentation p {
+  line-height: 20px;  
+  margin-top: 10px;
 }
   
 .important {
-    color: var(--text-color);
+    color: var(--btn-color);
 }
 h3 {
     margin-top: 5px;
 }
 button {
-    height: 30px;
-    background-color: var(--text-color);
+    height: 40px;
+    background-color: var(--btn-color);
     opacity: 70%;
-    margin-top: 15px;
+    margin-top: 25px;
     border: 5px white;
     border-radius: 15px; 
      
@@ -32,8 +39,10 @@ button:hover {
   font-weight: 600;
 }
 .photo img {
-  margin-right: 20px;
+  margin-left: 30px;
   height: 450px;
+  border-radius: 40%;
+  margin-top: 30px;
 }
 /* compétences */
 .compétences {
@@ -42,7 +51,11 @@ button:hover {
     padding: 10px 10px;
     margin-top: 20px;
     border-spacing: 10px;
-     transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
     
 }
 
@@ -53,11 +66,13 @@ button:hover {
 
 .com{
     margin-top: 80px;
+    align-items: center;
+    margin-top: 20px;
     text-align: center;
     align-content: center;
     color:rgb(190, 65, 86);
     font-size: 20px;
-   
+    height: 100px;  
 }
 
 .card1{
@@ -67,6 +82,8 @@ button:hover {
     width: 200px;
     box-shadow: 0 0 10px palevioletred ;
     font-size: 10px;
+    background-color: var(--card-color);
+    
 }
 
 .card2{
@@ -76,6 +93,7 @@ button:hover {
     width: 200px;
     box-shadow: 0 0 10px palevioletred ;
     font-size: 10px;
+     background-color: var(--card-color);
 }
 
 .card3{
@@ -85,6 +103,7 @@ button:hover {
     width: 200px;
     box-shadow: 0 0 10px palevioletred ;
     font-size: 10px;
+     background-color: var(--card-color);
 }
 
 .card4{
@@ -94,6 +113,7 @@ button:hover {
     width: 200px;
     box-shadow: 0 0 10px palevioletred ;
     font-size: 10px;
+     background-color: var(--card-color);
 }
 
 .card1 i {
@@ -132,10 +152,12 @@ button:hover {
 
 .block{
     background-color: white;
-    font-size: 20px;
-    width: 30%;
-    
-    
+    font-size: 15px;
+    width: 30%;   
+}
+
+.block p {
+    margin-top: 15px;
 }
  
 /* contact */
@@ -164,8 +186,7 @@ button:hover {
     font-size: 25px;
 }
 
-.local i {
-    background-color:rgb(241, 164, 177) ;
+.local i { 
     margin: 15px;
 }
 

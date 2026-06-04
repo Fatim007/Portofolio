@@ -5,8 +5,9 @@
 @import url(https://fonts.google.com/specimen/Inter?query=inter);
 @import url(mobile.css);
 :root {
-     --primary-color:#FFD1DC ;
+     --primary-color:#F5EFE6 ;
     --secondary-color: #FFFFFF ;
-    --fh-color:#C4A0A0;
-    --text-color: #D8A;
+    --fh-color:#A67C52;
+    --card-color: #FFFF;
+    --btn-color:#A67C52;
 }
