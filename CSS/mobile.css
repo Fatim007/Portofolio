@@ -17,14 +17,17 @@
     font-size: 10px;
   }
 
+  .presentation p{
+    line-height: 10px;
+  }
+
   .text {
     height: 150px;
     width: 100%;
   }
   
   .photo img {
-    
-    height: 250px;
+    height: 200px;
   }
 
   .compétences {
