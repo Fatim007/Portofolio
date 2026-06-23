@@ -17,6 +17,6 @@ header {
     color: var(--fh-color);
 }
 .logo {
-    font-size: 25px;
+    font-size: clamp(0.85,1.7rem,2rem);
     color: var(--color-accent-cyan)
 }

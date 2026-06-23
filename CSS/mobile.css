@@ -3,88 +3,77 @@
   .nav{
     display: flex;
     gap: 15px;
-    font-size: 12px;
+    font-size: 0.8rem;
   }
    
    .logo{
-    font-size: 17px;
+    font-size: 1.3rem;
    }
 
+
+
   /* main */
-  .presentation {
-    width: 100%;
-    height: 200px;
-    font-size: 10px;
-  }
+.presentation img {
+  height: 12rem;
+}
+.presentation h1 {
+  font-size: 2rem;
+}
 
-  .presentation p{
-    line-height: 10px;
-  }
+.presentation P {
+  font-size: 0.7rem;
+}
 
-  .text {
-    height: 150px;
-    width: 100%;
-  }
-  
-  .photo img {
-    height: 200px;
-  }
+.compétences {
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(2,1fr);
+  padding: 20px;
+  gap: 10px;
+}
 
-  .compétences {
-    align-items: center;
-    gap: 5px;
-    font-size: 5px;
-  }
+.card1, .card2, .card3, .card4 {
+  width: 200px;
+  height: 7.5rem;
+  font-size: 0.5rem;
+}
 
-  .card1{
-    width: 40%;
-    font-size: 8px;
-  }
- .card2{
-    width: 40%;
-    font-size: 8px;
-  }
+.projets {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  padding: 20px;
+}
 
-  .card3{
-    width: 40%;
-    font-size: 8px;
-  }
+.block {
+  width: 100%;
+}
 
-  .card4{
-    width: 40%;
-    font-size: 8px;
-  }
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
 
-  .projets{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.about-me .gauche p{
+  width: 100%;
+  height: 300px;
+  font-size: 1rem;
+  line-height: none;
+}
 
-  .block{
-    font-size: 10px;
-    width: 80%;
-    
-  }
+.about-me {
 
-  .button{
-    height: 20px;
-  }
+}
 
-  .com {
-    font-size: 15px;
-  }
-  .contact{
-    font-size: 10px;
-  }
-
-  .compétences{
-    font-size: 5px;
-  }
-
-  .compétences i {
-    font-size: 18px;
-  }
+.about-me img {
+  height: 10rem;
+}
 
 .local{
     font-size: 2px;
